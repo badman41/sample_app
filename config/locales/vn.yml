@@ -1,0 +1,12 @@
+vn:
+  hello: "Hello world"
+  layout:
+    _footer:
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      news: "Tin tức"
+    _header:
+      title: "sample app"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      logIn: "Đăng nhập"
