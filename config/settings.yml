@@ -1,0 +1,8 @@
+validate:
+  user:
+    name:
+      maxlength: 50
+    email:
+      maxlength: 150
+    password:
+      maxlength: 6
