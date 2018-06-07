@@ -53,3 +53,12 @@ en:
   users:
     new:
       title: "Sign up"
+      btnSubmit: "Create my account"
+    create:
+      flash_success: "Welcome to the Sample App!"
+    show:
+      flash_notice: "Không tìm thấy user nào!"
+  shared:
+    error_messages:
+      message: "The form contains"
+      error: "error"
