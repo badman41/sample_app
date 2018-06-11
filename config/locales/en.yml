@@ -14,6 +14,12 @@ en:
       home: "Home"
       help: "Help"
       logIn: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+      log_in: "Log in"
   static_pages:
     about:
       the: "The"
@@ -62,3 +68,11 @@ en:
     error_messages:
       message: "The form contains"
       error: "error"
+  sessions:
+    create:
+      flash_danger: "Invalid email/password combination"
+    new:
+      title: "Log in"
+      btnSingup: "Sign up now!"
+      btnLogIn: "Log in"
+      new_user: "New user? "
