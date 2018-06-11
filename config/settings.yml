@@ -6,3 +6,7 @@ validate:
       maxlength: 150
     password:
       maxlength: 6
+user_helper:
+  size_gravatar: 150
+user:
+  size_gravatar: 80
