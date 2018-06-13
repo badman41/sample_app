@@ -1,6 +1,9 @@
 class User < ApplicationRecord
   attr_accessor :remember_token
   before_save :email_downcase
+
+  scope :all_user, ->{select :id, :name, :email}
+  scope :all_order, ->{order "name"}
   validates :name, presence: true,
     length: {maximum: Settings.validate.user.name.maxlength}
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
@@ -8,7 +11,7 @@ class User < ApplicationRecord
     length: {maximum: Settings.validate.user.email.maxlength},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
   has_secure_password
-  validates :password, presence: true,
+  validates :password, presence: true, allow_nil: true,
     length: {minimum: Settings.validate.user.password.maxlength}
 
   def self.digest string
