@@ -20,6 +20,7 @@ en:
       settings: "Settings"
       log_out: "Log out"
       log_in: "Log in"
+      user: "Users"
   static_pages:
     about:
       the: "The"
@@ -60,10 +61,27 @@ en:
     new:
       title: "Sign up"
       btnSubmit: "Create my account"
+    edit:
+      title: "Edit User"
+      btnSubmit: "Save change"
+      btnChange: "Change"
     create:
       flash_success: "Welcome to the Sample App!"
+    update:
+      flash_success: "Profile updated"
     show:
       flash_notice: "Không tìm thấy user nào!"
+    _user:
+      delete: ":delete"
+      confirm: "You sure?"
+    index:
+      title: "All users"
+    destroy:
+      flash: "User deleted"
+    logged_in_user:
+      flash: "Please log in."
+    find_user:
+      flash: "none"
   shared:
     error_messages:
       message: "The form contains"
