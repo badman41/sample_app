@@ -67,6 +67,7 @@ en:
       btnChange: "Change"
     create:
       flash_success: "Welcome to the Sample App!"
+      flash_activate: "Please check your email to activate your account."
     update:
       flash_success: "Profile updated"
     show:
@@ -89,9 +90,21 @@ en:
   sessions:
     create:
       flash_danger: "Invalid email/password combination"
+      message: "Account not activated.Check your email for the activation link."
     new:
       title: "Log in"
       btnSingup: "Sign up now!"
       btnLogIn: "Log in"
       new_user: "New user? "
       remember: "Remember me on this computer"
+  account_activations:
+    edit:
+      flash_success: "Account activated!"
+      flash_danger: "Invalid activation link"
+  user_mailer:
+    subject_account: Account activation"
+    account_activation:
+      title: "sample app"
+      hi: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
