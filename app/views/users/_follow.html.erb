@@ -1,0 +1,3 @@
+<%= form_for build_active_relationships(@user.id), remote: true do |f| %>
+  <%= f.submit t(".btn_follow"), class: "btn btn-primary" %>
+<% end %>

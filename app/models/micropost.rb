@@ -2,6 +2,7 @@ class Micropost < ApplicationRecord
   belongs_to :user
   scope :all_order, ->{order(created_at: :desc)}
   scope :by_user_id, ->(user_id){where "user_id = ?", user_id}
+  scope :feed_query, ->(ids){where user_id: ids}
   mount_uploader :picture, PictureUploader
   validates :user_id, presence: true
   validates :content, presence: true,
