@@ -61,6 +61,7 @@ en:
       btnSignup: "Sign up now!"
       altImg: "Rails logo"
       title: "The home"
+      micropost: "Micropost Feed"
   users:
     new:
       title: "Sign up"
@@ -76,6 +77,7 @@ en:
       flash_success: "Profile updated"
     show:
       flash_notice: "Không tìm thấy user nào!"
+      micropost: "Microposts"  
     _user:
       delete: ":delete"
       confirm: "You sure?"
@@ -91,6 +93,13 @@ en:
     error_messages:
       message: "The form contains"
       error: "error"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      btn_post: "Post"
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
+    user_info:
+      btn_view: "view my profile"
+      micropost: "micropost"
   sessions:
     create:
       flash_danger: "Invalid email/password combination"
@@ -134,3 +143,15 @@ en:
     new:
       title: "Forgot password"
       btn_submit: "Submit"
+  microposts:
+    create:
+      flash_success: "Micropost created!"
+    destroy:
+      flash_success: "Micropost deleted!"
+      flash_error: "Error!"
+    error_picture: "should be less than 5MB"
+    micropost:
+      btn_delete: "delete"
+      btn_confirm: "You sure?"
+      posted: "Posted "
+      ago: "ago"
