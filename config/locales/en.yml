@@ -89,6 +89,17 @@ en:
       flash: "Please log in."
     find_user:
       flash: "none"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
+    follow:
+      btn_follow: "Follow"
+    unfollow:
+      btn_unfollow: "Unfollow"
+    show_follow:
+      view_profile: "view my profile"
+      micropost: "Microposts:"
   shared:
     error_messages:
       message: "The form contains"
@@ -100,6 +111,9 @@ en:
     user_info:
       btn_view: "view my profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     create:
       flash_danger: "Invalid email/password combination"
